@@ -6,6 +6,10 @@
     font-family: Raleway;
 }
 
+section {
+    margin: 100px auto;
+}
+
 body {
     background-color: black;
 }
@@ -85,4 +89,27 @@ body {
 
 .modules-list > .module > span {
     color: #33A8DB;
+}
+
+#transform-world {
+    background-image: url(assets/images/woman-code.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 363px;
+    border-top:  1px solid #33A8DB;
+    border-bottom:  1px solid #33A8DB;
+}
+
+#transform-world > p {
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    width: 244px;
+    text-align: left;
+    text-shadow: 3px 2px 0px #33A8DB;
+    text-transform: lowercase;
+    margin-left: 16%;
+    margin-top: 6%;
 }
