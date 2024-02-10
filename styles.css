@@ -133,3 +133,23 @@ body {
     max-width: 792px;
     color: white;
 }
+
+footer {
+   border-top: 1px solid #33A8DB;
+   text-align: center;
+}
+
+footer .dio-logo {
+    padding-top: 59px;
+    padding-bottom: 10px;
+}
+
+footer > p {
+    color: white;
+    padding-bottom: 24px;
+}
+
+footer > p > a {
+    color: #33A8DB;
+    text-decoration: none;
+}
