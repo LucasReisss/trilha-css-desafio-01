@@ -12,7 +12,7 @@ body {
 
 .banner {
     height: 605px;
-    border: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
     text-align: center;
     background-image: linear-gradient( rgba(0, 0, 0, 0.60), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)), url(assets/images/banner.png);
     background-repeat: no-repeat;
@@ -29,6 +29,7 @@ body {
     -webkit-text-fill-color: transparent;
     padding: 16px;
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 .banner-content > p {
