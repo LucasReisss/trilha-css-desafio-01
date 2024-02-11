@@ -20,6 +20,8 @@ body {
     text-align: center;
     background-image: linear-gradient( rgba(0, 0, 0, 0.60), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)), url(assets/images/banner.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .banner > .banner-content > .logo {
